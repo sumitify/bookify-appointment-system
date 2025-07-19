@@ -37,7 +37,7 @@ A sleek, modern appointment booking system built with React and Firebase, featur
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/bookify-appointment-system.git
+   git clone https://github.com/sumitify/bookify-appointment-system.git
    cd bookify-appointment-system
    ```
 
@@ -158,9 +158,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@domain.com
+**Sumit Kumar**
+- GitHub: [@sumitify](https://github.com/sumitify)
+- Email: inventor@outlook.in
 
 ## 🙏 Acknowledgments
 
