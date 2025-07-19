@@ -201,22 +201,22 @@ graph TD
         A[React Frontend on Browser]
     end
 
-    subgraph "Cloud Infrastructure (AWS)"
+    subgraph "Cloud Infrastructure - AWS"
         B[Firebase Authentication]
-        C[Amazon AppSync (GraphQL API)]
-        D[AWS Lambda (Resolvers)]
-        E[Amazon DynamoDB (Data Store)]
+        C[Amazon AppSync - GraphQL API]
+        D[AWS Lambda Resolvers]
+        E[Amazon DynamoDB Data Store]
         F[Google Calendar API]
-        G[Amazon SES/SNS (Notifications)]
+        G[Amazon SES/SNS Notifications]
     end
 
-    A -- Signs In/Up --> B
-    A -- GraphQL Queries/Mutations --> C
-    C -- Invokes --> D
-    D -- Reads/Writes Data --> E
-    D -- Checks Availability/Creates Events --> F
-    D -- Triggers --> G
-    G -- Sends Email/SMS --> User
+    A -->|Signs In/Up| B
+    A -->|GraphQL Queries/Mutations| C
+    C -->|Invokes| D
+    D -->|Reads/Writes Data| E
+    D -->|Checks Availability/Creates Events| F
+    D -->|Triggers| G
+    G -->|Sends Email/SMS| A
 ```
 
 ## 🚀 Getting Started
